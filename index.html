@@ -1,60 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prime Visual - Sua Marca em Alta Definição</title>
+    <meta name="description" content="Agência de Marketing - Sofisticação e Minimalismo">
+    <meta name="keywords" content="agência, marketing, minimalismo, design moderno">
+    <meta name="author" content="Sua Agência">
+    <title>Sua Agência - Inovação e Estilo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Prime Visual</h1>
-            <p>Design de Marca, Sites & Identidade Visual</p>
+    <!-- Banner Inicial -->
+    <header class="banner">
+        <div class="banner-content">
+            <h1>PrimeVisualTech</h1>
+            <p>Transformamos negócios em grandes marcas.</p>
         </div>
     </header>
 
-    <section class="intro">
-        <div class="container">
-            <h2>Transforme seu negócio em uma marca de respeito</h2>
-            <p>Do logo à presença online, cuidamos da imagem da sua empresa para que você foque no que realmente importa: crescer e lucrar.</p>
-            <a href="#contato" class="btn">Quero Impulsionar Minha Marca</a>
+    <!-- Menu no topo -->
+    <nav class="menu">
+        <div class="menu-toggle">Menu</div>
+        <ul class="menu-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#clients">Clientes e Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#research">Pesquisa</a></li>
+        </ul>
+    </nav>
+
+    <!-- Carousel -->
+    <section id="carousel" class="carousel">
+        <div class="carousel-wrapper">
+            <div class="carousel-item active">
+                <img src="imagem1.jpg" alt="Imagem 1">
+                <div class="carousel-caption">Soluções personalizadas para cada cliente.</div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagem2.jpg" alt="Imagem 2">
+                <div class="carousel-caption">Sites responsivos e impactantes.</div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagem3.jpg" alt="Imagem 3">
+                <div class="carousel-caption">Estratégias que geram resultados.</div>
+            </div>
         </div>
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
     </section>
 
-    <section class="servicos">
+    <!-- Serviços -->
+    <section id="services" class="services">
         <div class="container">
             <h2>Nossos Serviços</h2>
-            <div class="grid">
-                <div class="card">
-                    <img src="https://via.placeholder.com/300x200?text=Identidade+Visual" alt="Identidade Visual">
+            <div class="service-grid">
+                <div class="service-item">
                     <h3>Identidade Visual</h3>
-                    <p>Logo, cores, tipografia e todos os detalhes que constroem uma marca marcante.</p>
+                    <p>Desenvolvemos marcas fortes que se conectam com seu público.</p>
                 </div>
-                <div class="card">
-                    <img src="https://via.placeholder.com/300x200?text=Cria%C3%A7%C3%A3o+de+Site" alt="Criação de Site">
-                    <h3>Criação de Site</h3>
-                    <p>Websites modernos, responsivos e que vendem. Seu negócio 24h online com visual profissional.</p>
+                <div class="service-item">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sites criativos, modernos e responsivos.</p>
                 </div>
-                <div class="card">
-                    <img src="https://via.placeholder.com/300x200?text=Marketing+Digital" alt="Marketing Digital">
-                    <h3>Marketing Digital</h3>
-                    <p>Gerenciamento de redes sociais, tráfego pago e estratégias para atrair mais clientes.</p>
+                <div class="service-item">
+                    <h3>Estratégia Digital</h3>
+                    <p>Gerenciamento de redes sociais e campanhas digitais.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contato" class="contato">
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            <h2>Entre em Contato</h2>
-            <p>Vamos colocar seu projeto no mapa. Clique abaixo e fale com a Prime Visual agora mesmo.</p>
-            <a href="https://wa.me/" class="btn">Fale Conosco no WhatsApp</a>
+            <p>&copy; 2025 Sua Agência - Todos os direitos reservados.</p>
         </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Prime Visual - Todos os direitos reservados.</p>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
